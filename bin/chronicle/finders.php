@@ -35,8 +35,3 @@ trait Finders {
   }
 
 }
-
-
-
-User::where(['email'=>'henry@gmail.com', 'password'=>'pass123'])->order('created_at asc');
-User::first(20)->joins('calls')
